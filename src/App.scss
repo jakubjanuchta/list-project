@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, sans-serif;
+
+}
+
+.app__wrapper{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  ul{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: default;
+    z-index: 1099;
+    transition: max-height 2s cubic-bezier(0, 1, 0, 1);
+    
+    .listOpened{
+      max-height: 500vh;
+      transition: max-height 2s ease-in-out;
+    }
+    .listClosed{
+      max-height: 0px;
+    }
+
+    
+
+    li:last-child>div>div>h4{
+      &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 1000px;
+        background-color: black;
+        bottom: calc(50% - 1px);
+        left: -28px;
+      }
+      
+    }
+  
+    .item{
+      position: relative;
+      padding-left: 30px;
+      background: white;
+      &:nth-child(2n)> div >div{
+        background-color: #eee;
+      }
+
+      &__wrapper{
+        display: flex;
+        font-size: 20px;
+        span{
+          z-index: 1000;
+          &.elementIcon{
+            position: relative;
+            display: inline-block;
+            background-color: #0281E6;
+            width: 26px;
+            height: 26px;
+            margin-top: 6px;
+            margin-right: 5px;
+          }
+
+          &::after, &::before{
+            content:"";
+            position: absolute;
+            display: block;
+            background-color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 3px;
+            border-radius: 1px;
+
+          }
+
+          &::after{
+            transition: .2s;
+            transform: translate(-50%, -50%) rotate(90deg);
+          }
+
+          &.multiple{
+            border-radius: 5px;
+          }
+    
+          &.single{
+            border-radius: 50%;
+          }
+
+          &.opened{
+            &::after{
+              transform: translate(-50%, -50%) rotate(0deg);
+            }
+          }
+  
+          
+          
+        }
+  
+        
+        &__content{
+          flex-grow: 1;
+          padding: 5px 10px;
+          h4{
+            position: relative;
+            display: inline-block;
+            font-weight: normal;
+            &::before{
+              content: "";
+              display: block;
+              position: absolute;
+              width: 10px;
+              height: 1px;
+              background-color: black;
+              bottom: calc(50% - 1px);
+              left: -28px;
+            }
+            
+          }
+  
+  
+        }
+  
+        span+div h4{
+          &::before, &::after{
+            left: -59px !important;
+          }
+        }
+        
+      }
+  
+      
+  
+      
+    }
+    &:first-child>li>div>div>h4{
+      &::after, &::before{
+        display: none;
+      } 
+    }
+  }
+
+  
+}
+
+
+
+
+
+

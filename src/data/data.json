@@ -1,0 +1,307 @@
+{   
+    "type":"multiple",
+    "list": [
+      {
+      "id": 0,
+      "name": "Nagłówek",
+      "subunits": {
+        "type": "single",
+        "list": [
+          {
+            "id": 1,
+            "name": "Pododdział 1",
+            "subunits": {
+              "type": "multiple",
+              "list":[
+              {
+                "id": 101,
+                "name": "Zespół 1",
+                "description": "HR"
+              },
+              {
+                "id": 102,
+                "name": "Zespół 2",
+                "description": "Marketing"
+              },
+              {
+                "id": 103,
+                "name": "Zespół 3",
+                "description": "Analitycy",
+                "subunits": {
+                  "type": "multiple",
+                  "list": [
+                    {
+                      "id": 10301,
+                      "name": "Podzespół 3.1",
+                      "description": "Kalendarz"
+                    },
+                    {
+                      "id": 10302,
+                      "name": "Podzespół 3.2",
+                      "description": "Kokpit"
+                    },
+                    {
+                      "id": 10303,
+                      "name": "Podzespół 3.3",
+                      "description": "Widok"
+                    },
+                    {
+                      "id": 10304,
+                      "name": "Podzespół 3.4",
+                      "description": "Różności"
+                    },
+                    {
+                      "id": 10305,
+                      "name": "Podzespół 3.5",
+                      "description": "Szukaj"
+                    }
+
+                  ]
+                }
+                  
+                
+              },
+              {
+                "id": 104,
+                "name": "Zespół 4",
+                "description": "Programiści",
+                "subunits": {
+                  "type": "multiple",
+                  "list": [
+                    {
+                      "id": 10401,
+                      "name": "Podzespół 4.1",
+                      "description": "Front-end"
+                    },
+                    {
+                      "id": 10402,
+                      "name": "Podzespół 4.2",
+                      "description": "Middle-front-end"
+                    },
+                    {
+                      "id": 10403,
+                      "name": "Podzespół 4.3",
+                      "description": "Middle-end"
+                    },
+                    {
+                      "id": 10404,
+                      "name": "Podzespół 4.4",
+                      "description": "Middle-back-end"
+                    },
+                    {
+                      "id": 10405,
+                      "name": "Podzespół 4.5",
+                      "description": "Back-end"
+                    }
+
+                  ]
+                }
+                  
+                
+              }
+
+            ]
+          }
+          },
+          {
+            "id": 2,
+            "name": "Pododdział 2"
+            ,
+            "subunits": {
+              "type": "multiple",
+              "list":[
+              {
+                "id": 201,
+                "name": "Zespół 1",
+                "description": "HR"
+              },
+              {
+                "id": 202,
+                "name": "Zespół 2",
+                "description": "Marketing"
+              },
+              {
+                "id": 203,
+                "name": "Zespół 3",
+                "description": "Analitycy",
+                "subunits": {
+                  "type": "multiple",
+                  "list": [
+                    {
+                      "id": 20301,
+                      "name": "Podzespół 3.1",
+                      "description": "Kalendarz"
+                    },
+                    {
+                      "id": 20302,
+                      "name": "Podzespół 3.2",
+                      "description": "Kokpit"
+                    },
+                    {
+                      "id": 20303,
+                      "name": "Podzespół 3.3",
+                      "description": "Widok"
+                    },
+                    {
+                      "id": 20304,
+                      "name": "Podzespół 3.4",
+                      "description": "Różności"
+                    },
+                    {
+                      "id": 20305,
+                      "name": "Podzespół 3.5",
+                      "description": "Szukaj"
+                    }
+
+                  ]
+                }
+                  
+                
+              },
+              {
+                "id": 204,
+                "name": "Zespół 4",
+                "description": "Programiści",
+                "subunits": {
+                  "type": "multiple",
+                  "list": [
+                    {
+                      "id": 20401,
+                      "name": "Podzespół 4.1",
+                      "description": "Front-end"
+                    },
+                    {
+                      "id": 20402,
+                      "name": "Podzespół 4.2",
+                      "description": "Middle-front-end"
+                    },
+                    {
+                      "id": 20403,
+                      "name": "Podzespół 4.3",
+                      "description": "Middle-end"
+                    },
+                    {
+                      "id": 20404,
+                      "name": "Podzespół 4.4",
+                      "description": "Middle-back-end"
+                    },
+                    {
+                      "id": 20405,
+                      "name": "Podzespół 4.5",
+                      "description": "Back-end"
+                    }
+
+                  ]
+                }
+                  
+                
+              }
+
+            ]
+          }
+          },
+          {
+            "id": 3,
+            "name": "Pododdział 3",
+            "subunits": {
+              "type": "multiple",
+              "list":[
+              {
+                "id": 301,
+                "name": "Zespół 1",
+                "description": "HR"
+              },
+              {
+                "id": 302,
+                "name": "Zespół 2",
+                "description": "Marketing"
+              },
+              {
+                "id": 303,
+                "name": "Zespół 3",
+                "description": "Analitycy",
+                "subunits": {
+                  "type": "multiple",
+                  "list": [
+                    {
+                      "id": 30301,
+                      "name": "Podzespół 3.1",
+                      "description": "Kalendarz"
+                    },
+                    {
+                      "id": 30302,
+                      "name": "Podzespół 3.2",
+                      "description": "Kokpit"
+                    },
+                    {
+                      "id": 30303,
+                      "name": "Podzespół 3.3",
+                      "description": "Widok"
+                    },
+                    {
+                      "id": 30304,
+                      "name": "Podzespół 3.4",
+                      "description": "Różności"
+                    },
+                    {
+                      "id": 30305,
+                      "name": "Podzespół 3.5",
+                      "description": "Szukaj"
+                    }
+
+                  ]
+                }
+                  
+                
+              },
+              {
+                "id": 304,
+                "name": "Zespół 4",
+                "description": "Programiści",
+                "subunits": {
+                  "type": "multiple",
+                  "list": [
+                    {
+                      "id": 30401,
+                      "name": "Podzespół 4.1",
+                      "description": "Front-end"
+                    },
+                    {
+                      "id": 30402,
+                      "name": "Podzespół 4.2",
+                      "description": "Middle-front-end"
+                    },
+                    {
+                      "id": 30403,
+                      "name": "Podzespół 4.3",
+                      "description": "Middle-end"
+                    },
+                    {
+                      "id": 30404,
+                      "name": "Podzespół 4.4",
+                      "description": "Middle-back-end"
+                    },
+                    {
+                      "id": 30405,
+                      "name": "Podzespół 4.5",
+                      "description": "Back-end"
+                    }
+
+                  ]
+                }
+                  
+                
+              }
+
+            ]
+          }
+          },
+          {
+            "id": 4,
+            "name": "Niezrzeszeni"
+          }
+        ]
+      }
+    }
+  ]
+}
